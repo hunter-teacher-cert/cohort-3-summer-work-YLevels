@@ -51,6 +51,20 @@ public class Chapter8Practice
       } //end row for loop
     } //end column for loop
   } //end method
+
+  //getSum method uses a nested enhanced for-each loop. It traverses through the elements of an array by row to update the total sum. I still do not understand how to verbalize what the colon is doing (I know it is read as "the integer array named innerArray in the integer array named a")
+  public static double getSum (int[][] a) 
+  {
+    double total = 0;
+    for (int[] innerArray : a) 
+    {
+      for (int val : innerArray) 
+      {
+        total = total + val;
+      } 
+    }
+    return total;
+  }
   
   public static void main (String[] args) 
   {
@@ -59,6 +73,7 @@ public class Chapter8Practice
     System.out.println("The largest value in the array named matrix is " + getLargest(matrix));
     System.out.println("The values in the array named matrix printed by column: ");
     columnMajorTraversal(matrix);
+    System.out.println("The total sum of the values in the array named matrix is " + getSum(matrix));
   }
   
 }
