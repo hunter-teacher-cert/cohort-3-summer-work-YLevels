@@ -16,10 +16,10 @@ public class Chapter8Practice
       {
         value = a[row][col];
         total = total + value;
-      }  
-    }
+      } //end column for loop 
+    } //end row for loop
     return total / (a.length * a[0].length);
-  }
+  } //end method
 
   //getLargest method traverases through all of the elements of the 2D array 
   public static int getLargest(int[][] a)
@@ -39,12 +39,26 @@ public class Chapter8Practice
     } //end row loop
     return largest;
   } //end method
+
+  //columnMajorTraversal method prints out the array by columns. It is void because it does not return something.
+  public static void columnMajorTraversal(int[][] a) 
+  {
+    for (int col = 0; col < a[0].length; col++) 
+    {
+      for (int row = 0; row < a.length; row++) 
+      {
+        System.out.println ( a [row][col] );
+      } //end row for loop
+    } //end column for loop
+  } //end method
   
   public static void main (String[] args) 
   {
     int [][] matrix = { {1,2,3},{4,5,6}};
-    System.out.println(getAverage(matrix));
-    System.out.println(getLargest(matrix));
+    System.out.println("The average of the array named matrix is " + getAverage(matrix));
+    System.out.println("The largest value in the array named matrix is " + getLargest(matrix));
+    System.out.println("The values in the array named matrix printed by column: ");
+    columnMajorTraversal(matrix);
   }
   
 }
