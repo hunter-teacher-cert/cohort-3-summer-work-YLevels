@@ -22,7 +22,7 @@ import java.util.*;
    Intermediate level (complete Basic methods plus this method):
    + explodeSquare (85)
    Advanced level (complete Basic + Intermediate + these two methods):
-   - explodeAllChar *
+   + explodeAllChar * (179)
    - downString
    The routines with the * will be particularly helpful for the
    Conway's Game of Life project that you'll work on after this one.
@@ -99,7 +99,7 @@ public class Array2DPractice
     }
     //this if loop checks to see if the target square is on the right edge. If it isn't...
     if (col < board[0].length-1) {
-      //...declares end to be 2 columns after the target square because we do not want to change that square. col+1 is the last one we want to change. col+2 is beyond the scope, so we use strictly less than to exclude col+2 in rows 158/168
+      //...declares end to be 2 columns after the target square because we do not want to change that square. col+1 is the last one we want to change. col+2 is beyond the scope, so we use strictly less than to exclude col+2 in rows 147/157
       end = col + 2;
       //changes the element to the right of the target square to X
       board[row][col+1] = 'X';
@@ -242,7 +242,7 @@ Go through each row starting at row 0.
     printBoard(b);
     System.out.println();
 
-    setRow(b, 3, 'l');
+    setRow(b, 3, 'p');
     printBoard(b);
 
     // System.out.println();
@@ -260,7 +260,7 @@ Go through each row starting at row 0.
     */
 
     System.out.println();
-    explodeAllChar(b, 'l');
+    explodeAllChar(b, 'p');
     printBoard(b);
   }
 }
