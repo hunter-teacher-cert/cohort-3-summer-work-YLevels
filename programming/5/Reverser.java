@@ -14,12 +14,17 @@ public class Reverser
   public static String reverseR( String s )
   {
   int index = s.length() - 1;
-      while (index >= 1) 
+  String reverseString = "";
+  char letter =  s.charAt(index);
+      while (index >= 0) 
       {
-        s = s + String.valueOf(s.charAt(index - 1));
+        // s = s + String.valueOf(s.charAt(index - 1));
+        // index--;
+        //reverseString = (String.valueOf(s.charAt(index)));
+        reverseString = ;
         index--;
       }
-    return s;
+    return reverseString;
   }
 
   public static void main( String[] args )
