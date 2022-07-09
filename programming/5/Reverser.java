@@ -25,10 +25,9 @@ public class Reverser
                   (hen) returns "en" + 'h'
                   (en) returns "n" + 'e'
                   (n) returns 'n'
-                  recursive method goes back up and concatenates:
-                  'n' + 'e' + 'h' + 'w'
-                  java toString method automatically converts 
-                  characters to String. 
+                  recursive method goes back up and adds:'n' + 'e' + 'h' + 'w'
+                  java toString method (embedded in the language itself) 
+                  automatically converts characters to String. 
       */
       
     } //end else

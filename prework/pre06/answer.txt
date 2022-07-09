@@ -1,0 +1,24 @@
+Exercise 1
+
+1. Draw a table that shows the value of the variables i and n during the execution of loop. 
+
+//The program loop will start with n = 10.
+
+i      n
+10     10
+5      10
+6      10
+3      10
+4      10
+2      10
+1      10
+
+2. The output of this program is:
+10
+5
+6
+3
+4
+2
+
+3. Since i = n and the loop terminates when i = 1, the loop should terminate when n = 1. 

@@ -1,0 +1,57 @@
+/*Exercise 2
+
+
+public static int banana(int[] a) {
+    int kiwi = 1;
+    int i = 0;
+    while (i < a.length) {
+        kiwi = kiwi * a[i];
+        i++;
+    }
+    return kiwi;
+}
+
+banana Method (accumulator):
+Multiplies the elements of array a to each other and returns the result. 
+
+Before the loop, variable kiwi is initialized to zero. Each time through the loop, we update kiwi by multiplying one element from the array. At the end of the loop, kiwi contains the product of the elements. 
+
+variable i is the index of the array.
+
+------------------------------------------
+
+public static int grapefruit(int[] a, int grape) {
+    for (int i = 0; i < a.length; i++) {
+        if (a[i] == grape) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+grapefruit Method (search):
+Takes an int array and an integer value, and returns the index where the value appears. If value grape is not found, -1 is returned instead.
+
+variable a refers to the array;
+variable i refers to the array's index;
+variable grape is the target integer. 
+
+------------------------------------------
+
+public static int pineapple(int[] a, int apple) {
+    int pear = 0;
+    for (int pine: a) {
+        if (pine == apple) {
+            pear++;
+        }
+    }
+    return pear;
+}
+
+pineapple Method (enhanced for loop): 
+
+Searches the array a for apple and counts how many times it appears. 
+
+variable a refers to the array;
+variable apple refers to the target;
+variable pear refers to the count.
