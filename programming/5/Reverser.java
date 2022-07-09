@@ -13,13 +13,24 @@ public class Reverser
   */
   public static String reverseR( String s )
   {
-    if (s.length() == 0) 
+    if (s.length() == 0) //if the length of the word is 0,
     {
-      return "";
+      return ""; //return an empty String.
     } //end if
-    else
+    else //if the length of the word is greater than 0,
     {
-      return reverseR(s.substring(1)) + s.charAt(0);
+      return reverseR(s.substring(1)) + s.charAt(0); 
+      /**visual example for the word "when"
+          reverseR(when) returns "hen" + 'w'
+                  (hen) returns "en" + 'h'
+                  (en) returns "n" + 'e'
+                  (n) returns 'n'
+                  recursive method goes back up and concatenates:
+                  'n' + 'e' + 'h' + 'w'
+                  java toString method automatically converts 
+                  characters to String. 
+      */
+      
     } //end else
   } //end method
 
