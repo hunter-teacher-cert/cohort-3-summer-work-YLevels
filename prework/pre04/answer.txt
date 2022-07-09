@@ -1,0 +1,32 @@
+Exercise 1
+
+if (x > 0 && x <10) {
+System.out.println("positive single digit number.");
+}
+
+Exercise 2
+
+main - creates integer named bizz (worth 5) and integer named buzz (worth 2). 
+zoop - program shows "just for"
+since bizz = 5 that means bob = 5 it will go to ping
+ping - program shows "any not more"
+
+then go back to main and finish with clink
+clink - the expression evaluates to 4
+program shows "It's "
+then go to zoop
+zoop - program shows "breakfast"
+next line - program shows "!"
+
+The complete output is:
+just for
+any not more
+It's breakfast
+!
+
+Exercise 3
+
+Draw a stack diagram that shows the state of the program in Section 5.8 after main invokes nLines with the parameter n==4, just before the last invocation of nLines returns.
+
+main - ()
+nLines - (creates four blank lines)

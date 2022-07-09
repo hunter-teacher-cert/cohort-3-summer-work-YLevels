@@ -1,0 +1,22 @@
+Exercise 1
+
+1. The output of the program is:
+
+No, I wug.
+You wugga wug.
+I wug.
+
+2. Draw a stack diagram that shows the state of the program the first time ping is invoked.
+
+main = line 1 -> "No, I "
+       continue with zoop
+zoop = refer to baffle
+baffle = line 1 -> "wug"
+       continue with ping
+ping = end line with "."
+
+//whatever comes after ping starts a new line
+
+Figure 2.1: Stack diagram for ping.
+
+3. If you invoke baffle(); at the end of the ping method you will get caught in a loop between baffle and ping causing an error. 
