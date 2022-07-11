@@ -1,7 +1,7 @@
 /**
  * Rational class by Team BangPi
  * Usman Ahmed
- * collaborators: First Last, First Last Yeidy Levels, Parmanand Mohanlall
+ * collaborators: Yeidy Levels, Parmanand Mohanlall, Ben Eckley
  */
 
 
