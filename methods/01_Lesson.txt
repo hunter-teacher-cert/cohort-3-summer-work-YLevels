@@ -1,0 +1,45 @@
+
+PreReq: CS use computational thinking - at this point we've already introduced pattern recognition. 
+
+Topic: Loops
+
+Essential Question: What is a loop?
+
+//Target Audience: 3rd Grade
+
+Lesson objective: Student will define the concept of loops. 
+
+Duration: 1 class period (45 minutes)
+
+Warm up (Hook) - time: 10 min.
+Show the students a visual of a loop (real-world connection) - teacher walks around desks 1,2, and 3 over and over again and asks students to count how many times is the teacher walking around the table. 
+
+-Brainstorm real-world examples of repetitive tasks (brushing teeth, tying shoes, using a vacuum)
+- setting the alarm clock to ring everyday
+- repeating a pattern in a craft - like bracelets or sewing
+
+**Connect this to computational thinking skill - pattern recognition**
+Ask students to turn and talk - "Remember computer sciencetists use computational thinking skills to solve problems. What computational thinking skills do you think we might use to figure out when we need a loop?"
+
+Show Flocabulary Video on Loops https://www.flocabulary.com/unit/coding-for-loops/ 
+(only show parts of the video, stop when it gets to for loops)
+
+
+time:
+
+Guided Model: Identifying patterns that are repeated. 
+
+
+Unplugged activity: Watch videos showing a dance routine. 
+http://www.helloruby.com/play/39 (simplier version)
+https://studio.code.org/s/course1/lessons/12/levels/1
+G
+
+Taking an image (from code.org) of dance moves, students and teacher can work together to annotate
+
+Lesson Activity: Look for a pattern and identify how many times it is repeated.
+Taking another image of dance moves, students can annotate the patterns and label loops
+
+Closing
+time: Wrap up the lesson with a discussion on loops and their uses 
+
