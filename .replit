@@ -1,2 +1,4 @@
 language = "bash"
-run = ""
+run = "cd ds/Sorting; javac *.java; java SortSearchDriver"
+
+# HI!  The run line is set to the commands you would type to get to the correct directory, compile, and run.  Where we would hit enter, there is a semi-colon to show the end of the line.  
