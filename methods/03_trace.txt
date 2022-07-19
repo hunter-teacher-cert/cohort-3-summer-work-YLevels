@@ -30,7 +30,7 @@ PROVEN PRO-TIPS:
 Practice live tracing before we present to students so we can prepare for misconceptions/questions that students might have; color-coding and making sure everyone is on the same page as to what the colors mean;
 providing examples of Types of Diagrams, "exemplar" drawings to refer to with lables and code side by side. 
 do a live tracing with students before asking them to complete it indepently
-allow them to include their diagram with their project to demonstrate understanding, and help you identify misconceptions vs errors in their code based on their planning doc, encourage students to update or revise their drawing if they change their a
+allow them to include their diagram with their project to demonstrate understanding, and help you identify misconceptions vs errors in their code based on their planning doc, encourage students to update or revise their drawing if they change their approach or catch a mistake.
 
 RESOURCES:
 ---------------------------------------
