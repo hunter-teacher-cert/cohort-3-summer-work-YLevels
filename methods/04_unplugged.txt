@@ -1,0 +1,73 @@
+CS Unplugged Activity Plan
+by Team Lucky 13 (Breakout Room 13)
+Roster: Yeidy Levels, Théa Williams
+
+BIG IDEA / NAME OF THE GAME / FEW WORDS DESCRIPTION
+Background
+some backstory if necessary, or genesis of this activity, or how it relates to cs and/or "real-world"
+
+LESSON NAME - 
+
+GRADE - 3 and up
+
+BIG IDEA - to help students understand that Linked Lists are one way in which computer store and access information(data).
+
+DESCRIPTION - Looking at the different ways we analog ways in which we organize information in our world. Lists on paper, like clas roster. Youtube playlist example of how this is used in the real world.
+
+PARTICIPANT PRE-REQUESTIES
+anything students should already know to make this work well optionally with some treatment of how necessary each pre-req is...
+
+Vocabulary Words (review before or at start of lesson)
+Node, Data, Next, Store, Memory, row/column (younger grades) or x,y corridinates (older grades)
+
+- Background knowledge - Real-world connection - why we have computers remember and search for information/data for us. Why have we offloaded this to computers.
+- Computers compute (what - information/data)
+- input/output
+- information can be stored and organized (vertical stacks, horziontal lists) 
+--> Precursor activity from CodeSpark: Wild West Pets (Concept - Stacks and Queues)
+- how to trace a row/column with finger to get to a point/box.
+
+
+
+SCAFFOLDING/DIFFERENTIATION
+an aspect of this activity well-suited to tiering / scaffolding / differentiation
+a grouping suggestion
+
+- If students are having trouble with the concept of   
+  LinkedLists, provide them with a template of the linkedlist 
+  with will use for the model/guided practice.
+- simplier images for the independent practice for groups who 
+  may need it
+- heterogeneous grouping
+
+etc
+MODEL/GUIDED PRACTICE
+Have a secret message on the displayed on the board. 
+Each student will get a card with another student's name on it and a letter in the "value/data" on the index card or "node".
+Students will be told that they should pretent that they can't see or communicate any of the other students in the classroom and that they should keep the information on their card secret.
+They can only communicate with the person whose name is writtn on their card.
+The teacher will define or point to the "head" of the LinkedList. 
+When the next student "Node" is pointed to they can read their "data" and then go up to the board to write it's value. 
+That student will then locate the next student "Node" written on their index card.
+So on and so forth until the secret message has been completely deciphered.
+
+INDEPENDENT PRACTICE
+Students will work in small groups to create their own LinkedList given an image to recreate and the "head" or starting point.
+Students will be create Nodes on a given template that includes labels and prompts, record the data (x,y coordinates or row/column and the next Node that it points on that template to create a LinkedList that could be used to recreate the image given (shading boxes to create image or connecting the dots). 
+
+ASSESSMENT
+Students can swap their LinkedList with another group and see if that other group is able to recreate the image.
+
+SHARE
+Students can turn and talk about challenges and successes.
+Teacher can restate the reason why we are learning about this data structure, what it is called , how it functions, and how it is used in the real world.
+
+RELATED RESOURCES
+a link (this is the visible text)
+for when you just want to show the link (gh will still make it clickable): https://xkcd.com
+a story
+a book
+name of a person who knows a lot
+etc
+
+*See 04_unplugged.draw file in this folder
