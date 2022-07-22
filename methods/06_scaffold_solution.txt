@@ -1,0 +1,13 @@
+Link to project page: https://scratch.mit.edu/projects/716058152
+
+This scaffolded activity has all of the code blocks in it, so it doesn't have a traditional "solution" per say. 
+
+Students would engage in this scaffolded lesson activity as an introduction to a game design unit and the Scratch interface.
+
+The comments included, would prompt students to change the methods that affect varibles such as a sprite's attributes. For example, such as the sound, score, color, and the position.
+
+Students will be asked to run the program after the value is changed for each variable or method and notice what happens.
+
+Students can use the commenting feature to record their noticings and wonderings.
+
+Students can be challenged to explore adding or changing additional sprites or varialbes such as te backgrounds.
